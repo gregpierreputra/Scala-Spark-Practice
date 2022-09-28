@@ -18,8 +18,8 @@ object OOPractice extends App
                var hasFeet: Boolean,
                var hasWings: Boolean)
   {
-    var _hasFourLegs: Boolean = null
-    var _hasTwoLegs: Boolean = null
+    var _hasFourLegs: Boolean = false
+    var _hasTwoLegs: Boolean = false
     val fullBooleans: List[Boolean] = List(hasTail, hasFeet, hasWings)
 
     // [2] - Auxiliary constructor for four legs and two legs parameters
@@ -43,7 +43,7 @@ object OOPractice extends App
         s"Wings : $fullBooleans[2]")
     }
 
-    override def toString(): Unit =
+    def display(): Unit =
     {
       println(s"I am an animal.\nMy name is $myName.\nI am $myAge years old" +
               s"\nThe status of my tail is : $hasTail" +
@@ -116,17 +116,18 @@ object OOPractice extends App
   /*
   My First Inheritance class
    */
-  class Bear extends Animal with Omnivore with Philosopher with Interests
+  // class Bear extends Animal with Omnivore with Philosopher with Interests
 
-
+  /*
   class Salmon extends AquaticAnimal with Philosopher with Interests
   {
     override def likes(likes: List[String]): Unit = {
 
     }
   }
+  */
+
   /*
   My First Subtype Polymorphism
    */
-  val myDeclaredAnimal: Animal = new
 }
