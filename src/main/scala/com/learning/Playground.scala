@@ -1,4 +1,4 @@
-package com.rockthejvm
+package com.learning
 
 /**
   * This simple application is an invitation to you to play around with any Scala code you like!

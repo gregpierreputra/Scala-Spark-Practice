@@ -1,4 +1,4 @@
-package com.rockthejvm
+package com.learning
 
 object ObjectOrientation extends App {
   /*
